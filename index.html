@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            width: 550px;
+            height: 550px;
+            position: relative;
+            margin: 0 auto;
+            transition: all 5s linear;
+
+        }
+        .c1:hover{
+            transform: rotate(45deg);
+        }
+        .r{
+            width: 200px;
+            height: 200px;
+        }
+        .c2{
+            background: yellow;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-top-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+        }
+        .c2:hover{
+            background: slateblue;
+        }
+        .c3{
+            background: red;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-top-right-radius: 200px;
+            border-bottom-left-radius: 200px;
+        }
+        .c3:hover{
+            background: navy;
+        }
+        .c4{
+            background: fuchsia;
+            position: absolute;
+            top: 0;
+            left: 0; 
+             border-top-right-radius: 200px;
+            border-bottom-left-radius: 200px;
+        }.c4:hover{
+            background: yellow;
+        }
+        .c5{
+            background: navy;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-top-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+        }
+        .c5:hover{
+            background: violet;
+        }
+        .c6{
+            background: orangered;
+            position: absolute;
+            top: 195px;
+            left:195px;
+            width: 160px;
+            height: 160px;
+            border-radius: 20px;
+        }    
+        .c6:hover{
+            background: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"> 
+        <div class="c2 r"></div>
+        <div class="c3 r"></div>
+        <div class="c4 r"></div>
+        <div class="c5 r"></div>
+        <div class="c6 "></div>
+    </div>
+</body>
+</html>
